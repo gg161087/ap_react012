@@ -1,0 +1,70 @@
+<!DOCTYPE html><!-- Avisa al navegar que version de html estamos usando -->
+<html lang="es"><!-- todo el contenido de la web y lenguaje del web -->
+<head>
+    <!-- Meta datos, para ayudar a los buscadores -->
+    <meta charset="UTF-8"> <!-- indica la codificacion de caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- indica que la ventana se acomode al ancho -->
+    <meta name="author" content="Gonzalo Gonzalez"><!-- Para indicar la firma -->
+    <meta name="keywords" content="images, react"><!-- Palabras clave que el navegador puede llevar a ver -->
+    <meta name="description" content="Galeria de imagenes"><!-- Breve descripcion de la web para los buscadores -->
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="stylesheet" href="estilos/styles.css" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js" defer></script><!-- Se le agrega 'defer' para cargar el script a lo ultimo -->
+    <title>Repaso de HTML5 CSS3 JS</title><!-- Titulo de la pestaña -->
+</head>
+<body>
+    <div>
+        <header id="header" class="header">        
+            <h1>Galeria</h1>
+            <nav class="navegacion">
+                <!-- en etiquetas 'a' con target="_blank" para abrir nueva pestaña -->
+                <a href="#">Galeria</a>
+            </nav>
+        </header>
+        <main class="main container">
+            <h2>Mis imagenes</h2>
+            <div class="imagenes">
+                <article>
+                    <h3>Camino</h3>
+                    <div>
+                        <img src="https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                        alt="fotografia de un camino"/>
+                    </div>
+                </article>
+                <article>   
+                    <h3>Ciudad</h3>
+                    <div>
+                        <img src="https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                        alt="fotografia de una ciudad con reflejo en el agua"/>
+                    </div>
+                </article>
+                <article>   
+                    <h3>Atardecer</h3>
+                    <div>
+                        <img src="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                        alt="fotografia de un atardecer"/>
+                    </div>
+                </article>
+                <article>   
+                    <h3>Montañas</h3>
+                    <div>
+                        <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                        alt="fotografia de montañas"/>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <nav>
+            <a href="#">Home</a>
+        </nav>        
+    </footer>
+</body>
+</html>
