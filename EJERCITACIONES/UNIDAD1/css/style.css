@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} 
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 80rem;
+    width: min(80rem, 95%);
+    margin: 0 auto;
+}
+
+.header,
+.footer {  
+    display: flex;  
+    width: 100%;
+    background-color: #e1e1e1;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+.header h1{
+    display: flex;
+    align-items: end;
+}
+
+.main h1 {
+    margin: 2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.form{
+    min-width: 35rem;
+    background-color: darkgray;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin: 2rem;
+}
+
+.form h2{
+    margin-bottom: 2rem;
+}
+.form input{
+    /* width: 95%; */
+    border-radius: 0.8rem;
+}
+
+.btn-send{
+    width: 10rem;
+    margin-top: 2rem;
+}

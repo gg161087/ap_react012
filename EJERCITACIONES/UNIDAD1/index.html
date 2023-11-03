@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <title>Gonzalez - Unidad 1</title>
+</head>
+<body>
+    <div>
+        <header id="header" class="header">
+            <div class="container">
+                <h1>Contactanos</h1>
+            </div>        
+        </header>
+        <main class="main container">
+            <div class="container">
+                <div class="form">
+                    <h2>Formulario</h2>
+                    <form>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre"><br><br>
+                
+                        <label for="apellido">Apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido"><br><br>
+                
+                        <label for="dni">DNI:</label><br>
+                        <input type="text" id="dni" name="dni"><br><br>
+                
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br><br>
+                
+                        <label for="telefono">Teléfono:</label><br>
+                        <input type="text" id="telefono" name="telefono"><br><br>
+                
+                        <label for="tipoSeguro">Tipo de seguro:</label><br>
+                        <select id="tipoSeguro" name="tipoSeguro" onchange="mostrarPrecio()">
+                            <option value="Basico">Básico</option>
+                            <option value="Intermedio">Intermedio</option>
+                            <option value="Premium">Premium</option>
+                        </select><br><br>
+                        <p id="precioSeguro">El precio del seguro es: $500</p>
+                        <input type="submit" value="Enviar" class="btn-send">
+                    </form>
+                </div>            
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <nav>
+            <a href="#">Home</a>
+        </nav>        
+    </footer>
+    
+</body>
+</html>
