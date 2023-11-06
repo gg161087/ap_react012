@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js" defer></script>
+    <title>Gonzalez - Unidad 2</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <h1>Ejercicios Unidad 2</h1>
+        </div>        
+    </header>
+    <main>
+        <div class="container">
+            <div class="calculator">
+                <label for="operand1">Operando 1:</label>
+                <input type="number" id="operand1" placeholder="Operando 1">
+                <input type="number" id="operand2" placeholder="Operando 2">
+                <div class="operators">
+                    <button class="operator" onclick="sum()">Suma</button>
+                    <button class="operator" onclick="subtract()">Resta</button>
+                    <button class="operator" onclick="multiply()">Multiplicación</button>
+                    <button class="operator" onclick="divide()">División</button>
+                </div>                
+                <input type="number" id="result" placeholder="Resultado" disabled>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav>
+            <a href="#">Home</a>
+        </nav>        
+    </footer>  
+</body>
+</html>

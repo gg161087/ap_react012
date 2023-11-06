@@ -64,7 +64,7 @@ main{
     font-weight: 900;
 }
 
-.form{
+.calculator{
     min-width: 35rem;
     background-color: #93B1A6;
     border-radius: 1rem;
@@ -72,16 +72,17 @@ main{
     margin: 2rem;
 }
 
-.form h2{
-    margin-bottom: 2rem;
-}
-.form input, select{
-    /* width: 95%; */
+
+.calculator input, select{
+    width: 95%;
     width: 100%;
     border-radius: 0.8rem;
 }
 
-.btn-send{
-    width: 10rem;
-    margin-top: 2rem;
+.operators {    
+    display: flex;    
+    margin: 1rem;
+}
+.operator{
+    margin: auto;
 }
