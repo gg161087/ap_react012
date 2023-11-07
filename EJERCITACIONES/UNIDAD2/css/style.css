@@ -31,21 +31,12 @@ a {
     text-decoration: none;
     margin: 0;
 }
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    max-width: 80rem;
-    width: min(80rem, 95%);
-    margin: 0 auto;
+.header h1{
+    justify-content: center;
 }
-
 .header,
 .footer {  
-    display: flex;  
-    width: 100%;
+    display: flex;
     background-color: #183D3D;
     padding: 2rem;
     margin-bottom: 0;
@@ -54,18 +45,18 @@ a {
     display: flex;
     align-items: end;
 }
-main{
-    display: flex;
-}
 .main h1 {
     margin: 2rem;
     text-align: center;
     font-size: 5rem;
     font-weight: 900;
 }
-
-.calculator{
-    min-width: 35rem;
+.container-sm{
+    display: flex;    
+    justify-content: center;
+    
+}
+.calculator{       
     background-color: #93B1A6;
     border-radius: 1rem;
     padding: 2.5rem;
@@ -85,4 +76,15 @@ main{
 }
 .operator{
     margin: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media (max-width: 380px) {
+    .operators {
+        display: flex;
+        flex-direction: column;
+    }
 }

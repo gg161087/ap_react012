@@ -85,3 +85,6 @@ main{
     width: 10rem;
     margin-top: 2rem;
 }
+input:focus {
+    outline: none;
+}
