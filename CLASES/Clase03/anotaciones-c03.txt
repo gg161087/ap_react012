@@ -1,0 +1,8 @@
+instalacion de node.js 
+https://nodejs.org/en
+
+instalacion de npx en terminal
+npm install -g npx
+
+crear proyecto en react
+npx create-react-app my-app
