@@ -1,0 +1,19 @@
+.footer {    
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 0;
+}
+
+.footer p{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 575px) {
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+    }    
+}
+  

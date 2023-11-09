@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Camiseta",
+        "description": "Una camiseta de algodón de alta calidad",
+        "price": 20.99,
+        "sku": "TS001",
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "name": "Pantalones",
+        "description": "Pantalones vaqueros duraderos y elegantes",
+        "price": 45.5,
+        "sku": "PN002",
+        "stock": 30
+    },
+    {
+        "id": 3,
+        "name": "Zapatos",
+        "description": "Zapatos deportivos cómodos para correr",
+        "price": 79.99,
+        "sku": "ZP003",
+        "stock": 20
+    }
+]

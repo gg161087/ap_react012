@@ -1,0 +1,12 @@
+.header {    
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .header .container{
+        display: flex;
+        flex-direction: column;
+    }    
+}
