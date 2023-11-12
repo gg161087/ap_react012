@@ -19,39 +19,55 @@
     <main class="main container">
         <div class="container">
             <div class="form">
-                <h2>Formulario</h2>
                 <form>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" required><br><br>
-            
-                    <label for="apellido">Apellido:</label><br>
-                    <input type="text" id="apellido" name="apellido" required><br><br>
-            
-                    <label for="dni">DNI:</label><br>
-                    <input type="text" id="dni" name="dni" required><br><br>
-            
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email" required><br><br>
-            
-                    <label for="telefono">Teléfono:</label><br>
-                    <input type="text" id="telefono" name="telefono" required><br><br>
-            
-                    <label for="tipoSeguro">Tipo de seguro:</label><br>
-                    <select id="tipoSeguro" name="tipoSeguro" onchange="mostrarPrecio()">
-                        <option value="Basico">Básico</option>
-                        <option value="Intermedio">Intermedio</option>
-                        <option value="Premium">Premium</option>
-                    </select><br><br>
-                    <p id="precioSeguro">El precio del seguro es: $500</p>
-                    <input type="submit" value="Enviar" class="btn-send">
-                </form>
+                    <div class="mb-3">                        
+                        <h2>Formulario</h2>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="name" required>                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Apellido:</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dni" class="form-label">DNI:</label>
+                        <input type="number" class="form-control" id="dni" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="text" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telephone" class="form-label">Teléfono:</label>
+                        <input type="number" class="form-control" id="telephone" name="telephone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tipoSeguro" class="form-label">Tipo de seguro:</label><br>
+                        <select id="tipoSeguro" class="form-select" name="tipoSeguro" onchange="mostrarPrecio()">
+                            <option value="Basico">Básico</option>
+                            <option value="Intermedio">Intermedio</option>
+                            <option value="Premium">Premium</option>
+                        </select>                        
+                    </div>
+                    <div class="mb-3">
+                        <p id="precioSeguro">El precio del seguro es: $500</p>
+                    </div>
+                    <div class="btn-send">
+                        <button type="submit" class="btn btn-primary" value="Enviar" id="btn-send">Submit</button>
+                    </div>
+                </form>           
+                
             </div>            
         </div>
     </main>
-    <footer class="footer">
-        <nav>
-            <a href="#">Home</a>
-        </nav>        
+    <footer class="footer">     
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+            </nav>        
+        </div>
     </footer>    
 </body>
 </html>
