@@ -32,16 +32,6 @@ a {
     margin: 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    max-width: 80rem;
-    width: min(80rem, 95%);
-    margin: 0 auto;
-}
-
 .header,
 .footer {  
     display: flex;  
@@ -63,28 +53,20 @@ main{
     font-size: 5rem;
     font-weight: 900;
 }
+.main .container{
+    display: flex;
+    justify-content: center;
+}
 
-.form{
-    min-width: 35rem;
+ .form{    
+    width: 350px;
     background-color: #93B1A6;
     border-radius: 1rem;
     padding: 2.5rem;
     margin: 2rem;
 }
-
-.form h2{
-    margin-bottom: 2rem;
-}
-.form input, select{
-    /* width: 95%; */
-    width: 100%;
-    border-radius: 0.8rem;
-}
-
 .btn-send{
-    width: 10rem;
-    margin-top: 2rem;
-}
-input:focus {
-    outline: none;
+    display: flex;
+    padding-right: 2rem;
+    justify-content: flex-end;
 }
