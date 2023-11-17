@@ -1,0 +1,9 @@
+Expresiones regulares ó reject:
+let patron = /^[a-zA-Z]/ (para saber si inicia con la a hasta la z en minuscula o mayuscula)
+/[aeiou]/ ()
+/^[@]/ (para saber si empieza con @)
+/.com$/ (para saber si termina el com)
+
+/^\S+@\S+\.\S+$/ (para comprobar que no tenga espacios, que tenga @, que tenga un ".", para que no tenga espacios despues del punto)
+
+FORMIK biblioteca de gestion de formularios para react
