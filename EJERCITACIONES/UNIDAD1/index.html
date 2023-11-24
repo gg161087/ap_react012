@@ -19,33 +19,38 @@
     <main class="main container">
         <div class="container">
             <div class="form">
-                <form>
+                <form id="miForm">
                     <div class="mb-3">                        
                         <h2>Formulario</h2>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 input">
                         <label for="name" class="form-label">Nombre:</label>
-                        <input type="text" class="form-control" id="name" required>                        
+                        <input type="text" class="input__form" id="name">
+                        <p id="messageName"></p>                        
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 input">
                         <label for="lastName" class="form-label">Apellido:</label>
-                        <input type="text" class="form-control" id="lastName" required>
+                        <input type="text" class="input__form" id="lastName">
+                        <p id="messageLastName"></p>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 input">
                         <label for="dni" class="form-label">DNI:</label>
-                        <input type="number" class="form-control" id="dni" required>
+                        <input type="number" class="input__form" id="dni">
+                        <p id="messageDni"></p>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 input">
                         <label for="email" class="form-label">Email:</label>
-                        <input type="text" class="form-control" id="email" name="email" required>
+                        <input type="text" class="input__form" id="email" name="email">
+                        <p id="messageEmail"></p>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 input">
                         <label for="telephone" class="form-label">Teléfono:</label>
-                        <input type="number" class="form-control" id="telephone" name="telephone" required>
+                        <input type="number" class="input__form" id="telephone" name="telephone">
+                        <p id="messageTelephone"></p>
                     </div>
                     <div class="mb-3">
                         <label for="tipoSeguro" class="form-label">Tipo de seguro:</label><br>
-                        <select id="tipoSeguro" class="form-select" name="tipoSeguro" onchange="mostrarPrecio()">
+                        <select id="tipoSeguro" class="input__form select" name="tipoSeguro" onchange="mostrarPrecio()">
                             <option value="Basico">Básico</option>
                             <option value="Intermedio">Intermedio</option>
                             <option value="Premium">Premium</option>
@@ -57,8 +62,7 @@
                     <div class="btn-send">
                         <button type="submit" class="btn btn-primary" value="Enviar" id="btn-send">Submit</button>
                     </div>
-                </form>           
-                
+                </form>                           
             </div>            
         </div>
     </main>

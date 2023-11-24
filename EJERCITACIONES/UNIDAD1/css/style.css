@@ -31,6 +31,23 @@ a {
     text-decoration: none;
     margin: 0;
 }
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 7rem;  
+}
+
+.input__form{
+    width: 100%;   
+    box-sizing: border-box;   
+}
+.input__form:focus{
+    border: 'none';
+}
+
+.select {
+    width: 100%;
+}
 
 .header,
 .footer {  
